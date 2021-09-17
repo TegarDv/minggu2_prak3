@@ -12,5 +12,11 @@ class ProdiController extends Controller
 
     public function ti() {
         return view('prodi.ti');
+    public function ti(){
+        return "Halaman Prodi Teknik Informatika";
+    }
+
+    public function mi(){
+        return "Halaman Prodi Manajemen Informatika";
     }
 }

@@ -38,4 +38,4 @@ Route:: prefix('sarana')->group(function(){
 
 Route:: get('/about',[AboutController::class,'AboutUser']);
 
-Route::get('/comment/{nama}/{pesan}', [CommentController::class,'comment']);
+Route::get('/comment/{nama}/{pesan}',[CommentController::class, 'index']);
